@@ -45,7 +45,7 @@ namespace ConsoleApp1
             int a = int.Parse(Console.ReadLine());
             Console.Write("b = ");
             int b = int.Parse(Console.ReadLine());
-            double answer = Sqrt(Square(a, k) + Square(b, t)) / (Sum(x) - b + Sum(y));
+            double answer = Sqrt(Square(a, k) + Square(b, t)) / (Sum(x) - b) + Sum(y);
             Console.WriteLine($"Ответ: {answer}");
         }
     }
